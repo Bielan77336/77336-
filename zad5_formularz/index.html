@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Nikita Bielan</title>
+    <link rel="stylesheet" href="green.css" id="themeStylesheet">
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>Nikita Bielan</h1>
+            <p>Numer indeksu: 77336</p>
+            <img src="photo.jpg" alt="Zdjęcie profilowe Nikity Bielana" width="180">
+            <p>Student zainteresowany rozwojem w obszarze technologii i pracy zespołowej.</p>
+
+            <button id="toggleTheme">Zmień motyw</button>
+            <button id="toggleProjects">Ukryj projekty</button>
+        </header>
+
+        <section>
+            <h2>Kontakt</h2>
+            <p>Email: <a href="mailto:nikeqwz7051vwv@gmail.com">nikeqwz7051vwv@gmail.com</a></p>
+            <p>Telefon: <a href="tel:+48452922096">+48 452 922 096</a></p>
+            <p>Miasto: Warszawa</p>
+            <p>GitHub: <a href="https://github.com/Bielan77336" target="_blank">github.com/Bielan77336</a></p>
+        </section>
+
+        <section>
+            <h2>O mnie</h2>
+            <p>Jestem studentem zainteresowanym zdobywaniem doświadczenia i rozwijaniem umiejętności.</p>
+        </section>
+
+        <section>
+            <h2>Umiejętności</h2>
+            <ul>
+                <li>Praca zespołowa</li>
+                <li>Dobra organizacja pracy</li>
+                <li>Szybkie uczenie się</li>
+                <li>Podstawy HTML</li>
+            </ul>
+        </section>
+
+        <section id="projectsSection">
+            <h2>Projekty</h2>
+            <ul>
+                <li>Strona CV w HTML</li>
+                <li>Projekt edukacyjny WWW</li>
+            </ul>
+        </section>
+
+        <!-- FORMULARZ -->
+        <section>
+            <h2>Formularz kontaktowy</h2>
+
+            <form id="contactForm" novalidate>
+                <p>
+                    Imię:<br>
+                    <input type="text" id="imie">
+                    <span class="error" id="errorImie"></span>
+                </p>
+
+                <p>
+                    Nazwisko:<br>
+                    <input type="text" id="nazwisko">
+                    <span class="error" id="errorNazwisko"></span>
+                </p>
+
+                <p>
+                    E-mail:<br>
+                    <input type="email" id="email">
+                    <span class="error" id="errorEmail"></span>
+                </p>
+
+                <p>
+                    Wiadomość:<br>
+                    <textarea id="wiadomosc"></textarea>
+                    <span class="error" id="errorWiadomosc"></span>
+                </p>
+
+                <button type="submit">Wyślij</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>© 2026 Nikita Bielan</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
